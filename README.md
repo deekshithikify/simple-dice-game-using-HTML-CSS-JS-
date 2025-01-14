@@ -1,1 +1,1 @@
-# simple-dice-game-using-HTML-CSS-JS-
+# simple dice game [using-HTML-CSS-JS]
