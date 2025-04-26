@@ -1,5 +1,5 @@
 .container {
-    width: 70;
+    width: 70%;
     margin: auto;
     text-align: center;
 }
@@ -7,33 +7,52 @@
 .dice {
     text-align: center;
     display: inline-block;
+    margin: 20px;
 }
 
 body {
     background-color: rgb(255, 255, 255);
 }
 
-h1{
+h1 {
     margin: 30px;
-    font-family: "lobster", cursive;
+    font-family: "Lobster", cursive;
     text-shadow: 5px 0 #b6a095;
     font-size: 6rem;
-    color: rgb(11, 38, 242);
+    color: rgb(61, 11, 242);
 }
 
 p {
     font-size: 2rem;
-    color: rgb(250, 6, 6);
-    font-family: "indiecflower", cursive;
+    color: rgb(220, 18, 18);
+    font-family: "Indie Flower", cursive;
 }
 
-img{
+img {
     width: 80%;
 }
 
-footer{
+footer {
     margin-top: 5%;
-    color: rgb(15, 11, 11);
+    color: rgb(5, 41, 11);
     text-align: center;
-    font-family: "indie flower", cursive;
+    font-family: "Indie Flower", cursive;}
+
+
+.restart-btn {
+    display: block;
+    margin: 30px auto 0 auto; 
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.restart-btn:hover {
+    background-color: #218838;
 }
